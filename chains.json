@@ -63501,6 +63501,41 @@
         "color_chain_text": "0x000000",
         "ic_home_logo": "https://photos.pinksale.finance/file/pinksale-logo-upload/1768216345304-4f17a2cc73fa22989e27cd2b22ec94bd.jpg"
     }
+},
+    {
+    "name": "Meta Assets Chain",
+    "chainId": 20260131,
+    "shortName": "machain",
+    "chain": "Machain",
+    "network": "mainnet",
+    "networkId": 20260131,
+    "nativeCurrency": {
+        "name": "MetaAssets",
+        "symbol": "MA",
+        "decimals": 18
+    },
+    "rpc": [
+        "https://rpc.ma-chain.xyz",
+        "https://madataseed.xyz",
+        "https://maclive.info",
+        "wss://madataseed.xyz/ws",
+        "wss://maclive.info/ws"
+    ],
+    "faucets": [],
+    "infoURL": "https://metaassetschain.org/",
+    "explorers": [
+            {
+                "name": "blockscout",
+                "url": "https://macscan.io",
+                "icon": "machain",
+                "standard": "EIP3091"
+            }
+        ],
+    "app_resource": {
+        "ic_chain_select": "https://metaassetschain.org/images/logo_white_bg.png",
+        "ic_chain_unselect": "https://metaassetschain.org/images/logo_Unselect.png",
+        "color_chain_bg": "#FFFAFA"
+    }
 }
 
 ]
